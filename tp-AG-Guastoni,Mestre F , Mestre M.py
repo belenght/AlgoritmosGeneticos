@@ -1,12 +1,10 @@
 import random
 import matplotlib.pyplot as plt
 
-# ============================================================
-#  CONSTANTES DEL PROBLEMA
-# ============================================================
 
+#  CONSTANTES DEL PROBLEMA
 BITS          = 30           # longitud de cada cromosoma
-COEF          = 2**30 - 1   # coeficiente de la función objetivo
+COEF          = 2**30 - 1    # coeficiente de la función objetivo
 TAM_POBLACION = 10           # cantidad de individuos
 PC            = 0.75         # probabilidad de crossover
 PM            = 0.05         # probabilidad de mutación
